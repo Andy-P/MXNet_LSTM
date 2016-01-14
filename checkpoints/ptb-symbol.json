@@ -1,0 +1,7904 @@
+{
+  "nodes": [
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_data_32", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_embed_weight", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "True", 
+        "num_hidden": "256"
+      }, 
+      "name": "ptb_embed_32", 
+      "inputs": [[0, 0], [1, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_l1_i2h_weight", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_l1_i2h_bias", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_32_i2h", 
+      "inputs": [[2, 0], [3, 0], [4, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_data_31", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "True", 
+        "num_hidden": "256"
+      }, 
+      "name": "ptb_embed_31", 
+      "inputs": [[6, 0], [1, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_31_i2h", 
+      "inputs": [[7, 0], [3, 0], [4, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_data_30", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "True", 
+        "num_hidden": "256"
+      }, 
+      "name": "ptb_embed_30", 
+      "inputs": [[9, 0], [1, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_30_i2h", 
+      "inputs": [[10, 0], [3, 0], [4, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_data_29", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "True", 
+        "num_hidden": "256"
+      }, 
+      "name": "ptb_embed_29", 
+      "inputs": [[12, 0], [1, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_29_i2h", 
+      "inputs": [[13, 0], [3, 0], [4, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_data_28", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "True", 
+        "num_hidden": "256"
+      }, 
+      "name": "ptb_embed_28", 
+      "inputs": [[15, 0], [1, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_28_i2h", 
+      "inputs": [[16, 0], [3, 0], [4, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_data_27", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "True", 
+        "num_hidden": "256"
+      }, 
+      "name": "ptb_embed_27", 
+      "inputs": [[18, 0], [1, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_27_i2h", 
+      "inputs": [[19, 0], [3, 0], [4, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_data_26", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "True", 
+        "num_hidden": "256"
+      }, 
+      "name": "ptb_embed_26", 
+      "inputs": [[21, 0], [1, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_26_i2h", 
+      "inputs": [[22, 0], [3, 0], [4, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_data_25", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "True", 
+        "num_hidden": "256"
+      }, 
+      "name": "ptb_embed_25", 
+      "inputs": [[24, 0], [1, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_25_i2h", 
+      "inputs": [[25, 0], [3, 0], [4, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_data_24", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "True", 
+        "num_hidden": "256"
+      }, 
+      "name": "ptb_embed_24", 
+      "inputs": [[27, 0], [1, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_24_i2h", 
+      "inputs": [[28, 0], [3, 0], [4, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_data_23", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "True", 
+        "num_hidden": "256"
+      }, 
+      "name": "ptb_embed_23", 
+      "inputs": [[30, 0], [1, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_23_i2h", 
+      "inputs": [[31, 0], [3, 0], [4, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_data_22", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "True", 
+        "num_hidden": "256"
+      }, 
+      "name": "ptb_embed_22", 
+      "inputs": [[33, 0], [1, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_22_i2h", 
+      "inputs": [[34, 0], [3, 0], [4, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_data_21", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "True", 
+        "num_hidden": "256"
+      }, 
+      "name": "ptb_embed_21", 
+      "inputs": [[36, 0], [1, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_21_i2h", 
+      "inputs": [[37, 0], [3, 0], [4, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_data_20", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "True", 
+        "num_hidden": "256"
+      }, 
+      "name": "ptb_embed_20", 
+      "inputs": [[39, 0], [1, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_20_i2h", 
+      "inputs": [[40, 0], [3, 0], [4, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_data_19", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "True", 
+        "num_hidden": "256"
+      }, 
+      "name": "ptb_embed_19", 
+      "inputs": [[42, 0], [1, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_19_i2h", 
+      "inputs": [[43, 0], [3, 0], [4, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_data_18", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "True", 
+        "num_hidden": "256"
+      }, 
+      "name": "ptb_embed_18", 
+      "inputs": [[45, 0], [1, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_18_i2h", 
+      "inputs": [[46, 0], [3, 0], [4, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_data_17", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "True", 
+        "num_hidden": "256"
+      }, 
+      "name": "ptb_embed_17", 
+      "inputs": [[48, 0], [1, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_17_i2h", 
+      "inputs": [[49, 0], [3, 0], [4, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_data_16", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "True", 
+        "num_hidden": "256"
+      }, 
+      "name": "ptb_embed_16", 
+      "inputs": [[51, 0], [1, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_16_i2h", 
+      "inputs": [[52, 0], [3, 0], [4, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_data_15", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "True", 
+        "num_hidden": "256"
+      }, 
+      "name": "ptb_embed_15", 
+      "inputs": [[54, 0], [1, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_15_i2h", 
+      "inputs": [[55, 0], [3, 0], [4, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_data_14", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "True", 
+        "num_hidden": "256"
+      }, 
+      "name": "ptb_embed_14", 
+      "inputs": [[57, 0], [1, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_14_i2h", 
+      "inputs": [[58, 0], [3, 0], [4, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_data_13", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "True", 
+        "num_hidden": "256"
+      }, 
+      "name": "ptb_embed_13", 
+      "inputs": [[60, 0], [1, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_13_i2h", 
+      "inputs": [[61, 0], [3, 0], [4, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_data_12", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "True", 
+        "num_hidden": "256"
+      }, 
+      "name": "ptb_embed_12", 
+      "inputs": [[63, 0], [1, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_12_i2h", 
+      "inputs": [[64, 0], [3, 0], [4, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_data_11", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "True", 
+        "num_hidden": "256"
+      }, 
+      "name": "ptb_embed_11", 
+      "inputs": [[66, 0], [1, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_11_i2h", 
+      "inputs": [[67, 0], [3, 0], [4, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_data_10", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "True", 
+        "num_hidden": "256"
+      }, 
+      "name": "ptb_embed_10", 
+      "inputs": [[69, 0], [1, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_10_i2h", 
+      "inputs": [[70, 0], [3, 0], [4, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_data_9", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "True", 
+        "num_hidden": "256"
+      }, 
+      "name": "ptb_embed_9", 
+      "inputs": [[72, 0], [1, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_9_i2h", 
+      "inputs": [[73, 0], [3, 0], [4, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_data_8", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "True", 
+        "num_hidden": "256"
+      }, 
+      "name": "ptb_embed_8", 
+      "inputs": [[75, 0], [1, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_8_i2h", 
+      "inputs": [[76, 0], [3, 0], [4, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_data_7", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "True", 
+        "num_hidden": "256"
+      }, 
+      "name": "ptb_embed_7", 
+      "inputs": [[78, 0], [1, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_7_i2h", 
+      "inputs": [[79, 0], [3, 0], [4, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_data_6", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "True", 
+        "num_hidden": "256"
+      }, 
+      "name": "ptb_embed_6", 
+      "inputs": [[81, 0], [1, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_6_i2h", 
+      "inputs": [[82, 0], [3, 0], [4, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_data_5", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "True", 
+        "num_hidden": "256"
+      }, 
+      "name": "ptb_embed_5", 
+      "inputs": [[84, 0], [1, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_5_i2h", 
+      "inputs": [[85, 0], [3, 0], [4, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_data_4", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "True", 
+        "num_hidden": "256"
+      }, 
+      "name": "ptb_embed_4", 
+      "inputs": [[87, 0], [1, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_4_i2h", 
+      "inputs": [[88, 0], [3, 0], [4, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_data_3", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "True", 
+        "num_hidden": "256"
+      }, 
+      "name": "ptb_embed_3", 
+      "inputs": [[90, 0], [1, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_3_i2h", 
+      "inputs": [[91, 0], [3, 0], [4, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_data_2", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "True", 
+        "num_hidden": "256"
+      }, 
+      "name": "ptb_embed_2", 
+      "inputs": [[93, 0], [1, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_2_i2h", 
+      "inputs": [[94, 0], [3, 0], [4, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_data_1", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "True", 
+        "num_hidden": "256"
+      }, 
+      "name": "ptb_embed_1", 
+      "inputs": [[96, 0], [1, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_1_i2h", 
+      "inputs": [[97, 0], [3, 0], [4, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_l1_init_h", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_l1_h2h_weight", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_l1_h2h_bias", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_1_h2h", 
+      "inputs": [[99, 0], [100, 0], [101, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus0", 
+      "inputs": [[98, 0], [102, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_1_gates", 
+      "inputs": [[103, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation3", 
+      "inputs": [[104, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation2", 
+      "inputs": [[104, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_l1_init_c", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul0", 
+      "inputs": [[106, 0], [107, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation0", 
+      "inputs": [[104, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation1", 
+      "inputs": [[104, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul1", 
+      "inputs": [[109, 0], [110, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus1", 
+      "inputs": [[108, 0], [111, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation4", 
+      "inputs": [[112, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul2", 
+      "inputs": [[105, 0], [113, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_2_h2h", 
+      "inputs": [[114, 0], [100, 0], [101, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus4", 
+      "inputs": [[95, 0], [115, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_2_gates", 
+      "inputs": [[116, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation13", 
+      "inputs": [[117, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation12", 
+      "inputs": [[117, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul6", 
+      "inputs": [[119, 0], [112, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation10", 
+      "inputs": [[117, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation11", 
+      "inputs": [[117, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul7", 
+      "inputs": [[121, 0], [122, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus5", 
+      "inputs": [[120, 0], [123, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation14", 
+      "inputs": [[124, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul8", 
+      "inputs": [[118, 0], [125, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_3_h2h", 
+      "inputs": [[126, 0], [100, 0], [101, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus8", 
+      "inputs": [[92, 0], [127, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_3_gates", 
+      "inputs": [[128, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation23", 
+      "inputs": [[129, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation22", 
+      "inputs": [[129, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul12", 
+      "inputs": [[131, 0], [124, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation20", 
+      "inputs": [[129, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation21", 
+      "inputs": [[129, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul13", 
+      "inputs": [[133, 0], [134, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus9", 
+      "inputs": [[132, 0], [135, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation24", 
+      "inputs": [[136, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul14", 
+      "inputs": [[130, 0], [137, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_4_h2h", 
+      "inputs": [[138, 0], [100, 0], [101, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus12", 
+      "inputs": [[89, 0], [139, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_4_gates", 
+      "inputs": [[140, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation33", 
+      "inputs": [[141, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation32", 
+      "inputs": [[141, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul18", 
+      "inputs": [[143, 0], [136, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation30", 
+      "inputs": [[141, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation31", 
+      "inputs": [[141, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul19", 
+      "inputs": [[145, 0], [146, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus13", 
+      "inputs": [[144, 0], [147, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation34", 
+      "inputs": [[148, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul20", 
+      "inputs": [[142, 0], [149, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_5_h2h", 
+      "inputs": [[150, 0], [100, 0], [101, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus16", 
+      "inputs": [[86, 0], [151, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_5_gates", 
+      "inputs": [[152, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation43", 
+      "inputs": [[153, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation42", 
+      "inputs": [[153, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul24", 
+      "inputs": [[155, 0], [148, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation40", 
+      "inputs": [[153, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation41", 
+      "inputs": [[153, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul25", 
+      "inputs": [[157, 0], [158, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus17", 
+      "inputs": [[156, 0], [159, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation44", 
+      "inputs": [[160, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul26", 
+      "inputs": [[154, 0], [161, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_6_h2h", 
+      "inputs": [[162, 0], [100, 0], [101, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus20", 
+      "inputs": [[83, 0], [163, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_6_gates", 
+      "inputs": [[164, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation53", 
+      "inputs": [[165, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation52", 
+      "inputs": [[165, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul30", 
+      "inputs": [[167, 0], [160, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation50", 
+      "inputs": [[165, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation51", 
+      "inputs": [[165, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul31", 
+      "inputs": [[169, 0], [170, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus21", 
+      "inputs": [[168, 0], [171, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation54", 
+      "inputs": [[172, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul32", 
+      "inputs": [[166, 0], [173, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_7_h2h", 
+      "inputs": [[174, 0], [100, 0], [101, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus24", 
+      "inputs": [[80, 0], [175, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_7_gates", 
+      "inputs": [[176, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation63", 
+      "inputs": [[177, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation62", 
+      "inputs": [[177, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul36", 
+      "inputs": [[179, 0], [172, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation60", 
+      "inputs": [[177, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation61", 
+      "inputs": [[177, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul37", 
+      "inputs": [[181, 0], [182, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus25", 
+      "inputs": [[180, 0], [183, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation64", 
+      "inputs": [[184, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul38", 
+      "inputs": [[178, 0], [185, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_8_h2h", 
+      "inputs": [[186, 0], [100, 0], [101, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus28", 
+      "inputs": [[77, 0], [187, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_8_gates", 
+      "inputs": [[188, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation73", 
+      "inputs": [[189, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation72", 
+      "inputs": [[189, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul42", 
+      "inputs": [[191, 0], [184, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation70", 
+      "inputs": [[189, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation71", 
+      "inputs": [[189, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul43", 
+      "inputs": [[193, 0], [194, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus29", 
+      "inputs": [[192, 0], [195, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation74", 
+      "inputs": [[196, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul44", 
+      "inputs": [[190, 0], [197, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_9_h2h", 
+      "inputs": [[198, 0], [100, 0], [101, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus32", 
+      "inputs": [[74, 0], [199, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_9_gates", 
+      "inputs": [[200, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation83", 
+      "inputs": [[201, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation82", 
+      "inputs": [[201, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul48", 
+      "inputs": [[203, 0], [196, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation80", 
+      "inputs": [[201, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation81", 
+      "inputs": [[201, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul49", 
+      "inputs": [[205, 0], [206, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus33", 
+      "inputs": [[204, 0], [207, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation84", 
+      "inputs": [[208, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul50", 
+      "inputs": [[202, 0], [209, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_10_h2h", 
+      "inputs": [[210, 0], [100, 0], [101, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus36", 
+      "inputs": [[71, 0], [211, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_10_gates", 
+      "inputs": [[212, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation93", 
+      "inputs": [[213, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation92", 
+      "inputs": [[213, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul54", 
+      "inputs": [[215, 0], [208, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation90", 
+      "inputs": [[213, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation91", 
+      "inputs": [[213, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul55", 
+      "inputs": [[217, 0], [218, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus37", 
+      "inputs": [[216, 0], [219, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation94", 
+      "inputs": [[220, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul56", 
+      "inputs": [[214, 0], [221, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_11_h2h", 
+      "inputs": [[222, 0], [100, 0], [101, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus40", 
+      "inputs": [[68, 0], [223, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_11_gates", 
+      "inputs": [[224, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation103", 
+      "inputs": [[225, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation102", 
+      "inputs": [[225, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul60", 
+      "inputs": [[227, 0], [220, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation100", 
+      "inputs": [[225, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation101", 
+      "inputs": [[225, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul61", 
+      "inputs": [[229, 0], [230, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus41", 
+      "inputs": [[228, 0], [231, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation104", 
+      "inputs": [[232, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul62", 
+      "inputs": [[226, 0], [233, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_12_h2h", 
+      "inputs": [[234, 0], [100, 0], [101, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus44", 
+      "inputs": [[65, 0], [235, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_12_gates", 
+      "inputs": [[236, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation113", 
+      "inputs": [[237, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation112", 
+      "inputs": [[237, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul66", 
+      "inputs": [[239, 0], [232, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation110", 
+      "inputs": [[237, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation111", 
+      "inputs": [[237, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul67", 
+      "inputs": [[241, 0], [242, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus45", 
+      "inputs": [[240, 0], [243, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation114", 
+      "inputs": [[244, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul68", 
+      "inputs": [[238, 0], [245, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_13_h2h", 
+      "inputs": [[246, 0], [100, 0], [101, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus48", 
+      "inputs": [[62, 0], [247, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_13_gates", 
+      "inputs": [[248, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation123", 
+      "inputs": [[249, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation122", 
+      "inputs": [[249, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul72", 
+      "inputs": [[251, 0], [244, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation120", 
+      "inputs": [[249, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation121", 
+      "inputs": [[249, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul73", 
+      "inputs": [[253, 0], [254, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus49", 
+      "inputs": [[252, 0], [255, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation124", 
+      "inputs": [[256, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul74", 
+      "inputs": [[250, 0], [257, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_14_h2h", 
+      "inputs": [[258, 0], [100, 0], [101, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus52", 
+      "inputs": [[59, 0], [259, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_14_gates", 
+      "inputs": [[260, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation133", 
+      "inputs": [[261, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation132", 
+      "inputs": [[261, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul78", 
+      "inputs": [[263, 0], [256, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation130", 
+      "inputs": [[261, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation131", 
+      "inputs": [[261, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul79", 
+      "inputs": [[265, 0], [266, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus53", 
+      "inputs": [[264, 0], [267, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation134", 
+      "inputs": [[268, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul80", 
+      "inputs": [[262, 0], [269, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_15_h2h", 
+      "inputs": [[270, 0], [100, 0], [101, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus56", 
+      "inputs": [[56, 0], [271, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_15_gates", 
+      "inputs": [[272, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation143", 
+      "inputs": [[273, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation142", 
+      "inputs": [[273, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul84", 
+      "inputs": [[275, 0], [268, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation140", 
+      "inputs": [[273, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation141", 
+      "inputs": [[273, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul85", 
+      "inputs": [[277, 0], [278, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus57", 
+      "inputs": [[276, 0], [279, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation144", 
+      "inputs": [[280, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul86", 
+      "inputs": [[274, 0], [281, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_16_h2h", 
+      "inputs": [[282, 0], [100, 0], [101, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus60", 
+      "inputs": [[53, 0], [283, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_16_gates", 
+      "inputs": [[284, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation153", 
+      "inputs": [[285, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation152", 
+      "inputs": [[285, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul90", 
+      "inputs": [[287, 0], [280, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation150", 
+      "inputs": [[285, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation151", 
+      "inputs": [[285, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul91", 
+      "inputs": [[289, 0], [290, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus61", 
+      "inputs": [[288, 0], [291, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation154", 
+      "inputs": [[292, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul92", 
+      "inputs": [[286, 0], [293, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_17_h2h", 
+      "inputs": [[294, 0], [100, 0], [101, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus64", 
+      "inputs": [[50, 0], [295, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_17_gates", 
+      "inputs": [[296, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation163", 
+      "inputs": [[297, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation162", 
+      "inputs": [[297, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul96", 
+      "inputs": [[299, 0], [292, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation160", 
+      "inputs": [[297, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation161", 
+      "inputs": [[297, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul97", 
+      "inputs": [[301, 0], [302, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus65", 
+      "inputs": [[300, 0], [303, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation164", 
+      "inputs": [[304, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul98", 
+      "inputs": [[298, 0], [305, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_18_h2h", 
+      "inputs": [[306, 0], [100, 0], [101, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus68", 
+      "inputs": [[47, 0], [307, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_18_gates", 
+      "inputs": [[308, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation173", 
+      "inputs": [[309, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation172", 
+      "inputs": [[309, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul102", 
+      "inputs": [[311, 0], [304, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation170", 
+      "inputs": [[309, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation171", 
+      "inputs": [[309, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul103", 
+      "inputs": [[313, 0], [314, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus69", 
+      "inputs": [[312, 0], [315, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation174", 
+      "inputs": [[316, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul104", 
+      "inputs": [[310, 0], [317, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_19_h2h", 
+      "inputs": [[318, 0], [100, 0], [101, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus72", 
+      "inputs": [[44, 0], [319, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_19_gates", 
+      "inputs": [[320, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation183", 
+      "inputs": [[321, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation182", 
+      "inputs": [[321, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul108", 
+      "inputs": [[323, 0], [316, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation180", 
+      "inputs": [[321, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation181", 
+      "inputs": [[321, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul109", 
+      "inputs": [[325, 0], [326, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus73", 
+      "inputs": [[324, 0], [327, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation184", 
+      "inputs": [[328, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul110", 
+      "inputs": [[322, 0], [329, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_20_h2h", 
+      "inputs": [[330, 0], [100, 0], [101, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus76", 
+      "inputs": [[41, 0], [331, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_20_gates", 
+      "inputs": [[332, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation193", 
+      "inputs": [[333, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation192", 
+      "inputs": [[333, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul114", 
+      "inputs": [[335, 0], [328, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation190", 
+      "inputs": [[333, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation191", 
+      "inputs": [[333, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul115", 
+      "inputs": [[337, 0], [338, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus77", 
+      "inputs": [[336, 0], [339, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation194", 
+      "inputs": [[340, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul116", 
+      "inputs": [[334, 0], [341, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_21_h2h", 
+      "inputs": [[342, 0], [100, 0], [101, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus80", 
+      "inputs": [[38, 0], [343, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_21_gates", 
+      "inputs": [[344, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation203", 
+      "inputs": [[345, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation202", 
+      "inputs": [[345, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul120", 
+      "inputs": [[347, 0], [340, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation200", 
+      "inputs": [[345, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation201", 
+      "inputs": [[345, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul121", 
+      "inputs": [[349, 0], [350, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus81", 
+      "inputs": [[348, 0], [351, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation204", 
+      "inputs": [[352, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul122", 
+      "inputs": [[346, 0], [353, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_22_h2h", 
+      "inputs": [[354, 0], [100, 0], [101, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus84", 
+      "inputs": [[35, 0], [355, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_22_gates", 
+      "inputs": [[356, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation213", 
+      "inputs": [[357, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation212", 
+      "inputs": [[357, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul126", 
+      "inputs": [[359, 0], [352, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation210", 
+      "inputs": [[357, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation211", 
+      "inputs": [[357, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul127", 
+      "inputs": [[361, 0], [362, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus85", 
+      "inputs": [[360, 0], [363, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation214", 
+      "inputs": [[364, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul128", 
+      "inputs": [[358, 0], [365, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_23_h2h", 
+      "inputs": [[366, 0], [100, 0], [101, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus88", 
+      "inputs": [[32, 0], [367, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_23_gates", 
+      "inputs": [[368, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation223", 
+      "inputs": [[369, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation222", 
+      "inputs": [[369, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul132", 
+      "inputs": [[371, 0], [364, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation220", 
+      "inputs": [[369, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation221", 
+      "inputs": [[369, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul133", 
+      "inputs": [[373, 0], [374, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus89", 
+      "inputs": [[372, 0], [375, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation224", 
+      "inputs": [[376, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul134", 
+      "inputs": [[370, 0], [377, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_24_h2h", 
+      "inputs": [[378, 0], [100, 0], [101, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus92", 
+      "inputs": [[29, 0], [379, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_24_gates", 
+      "inputs": [[380, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation233", 
+      "inputs": [[381, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation232", 
+      "inputs": [[381, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul138", 
+      "inputs": [[383, 0], [376, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation230", 
+      "inputs": [[381, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation231", 
+      "inputs": [[381, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul139", 
+      "inputs": [[385, 0], [386, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus93", 
+      "inputs": [[384, 0], [387, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation234", 
+      "inputs": [[388, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul140", 
+      "inputs": [[382, 0], [389, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_25_h2h", 
+      "inputs": [[390, 0], [100, 0], [101, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus96", 
+      "inputs": [[26, 0], [391, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_25_gates", 
+      "inputs": [[392, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation243", 
+      "inputs": [[393, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation242", 
+      "inputs": [[393, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul144", 
+      "inputs": [[395, 0], [388, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation240", 
+      "inputs": [[393, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation241", 
+      "inputs": [[393, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul145", 
+      "inputs": [[397, 0], [398, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus97", 
+      "inputs": [[396, 0], [399, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation244", 
+      "inputs": [[400, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul146", 
+      "inputs": [[394, 0], [401, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_26_h2h", 
+      "inputs": [[402, 0], [100, 0], [101, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus100", 
+      "inputs": [[23, 0], [403, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_26_gates", 
+      "inputs": [[404, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation253", 
+      "inputs": [[405, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation252", 
+      "inputs": [[405, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul150", 
+      "inputs": [[407, 0], [400, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation250", 
+      "inputs": [[405, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation251", 
+      "inputs": [[405, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul151", 
+      "inputs": [[409, 0], [410, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus101", 
+      "inputs": [[408, 0], [411, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation254", 
+      "inputs": [[412, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul152", 
+      "inputs": [[406, 0], [413, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_27_h2h", 
+      "inputs": [[414, 0], [100, 0], [101, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus104", 
+      "inputs": [[20, 0], [415, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_27_gates", 
+      "inputs": [[416, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation263", 
+      "inputs": [[417, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation262", 
+      "inputs": [[417, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul156", 
+      "inputs": [[419, 0], [412, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation260", 
+      "inputs": [[417, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation261", 
+      "inputs": [[417, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul157", 
+      "inputs": [[421, 0], [422, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus105", 
+      "inputs": [[420, 0], [423, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation264", 
+      "inputs": [[424, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul158", 
+      "inputs": [[418, 0], [425, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_28_h2h", 
+      "inputs": [[426, 0], [100, 0], [101, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus108", 
+      "inputs": [[17, 0], [427, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_28_gates", 
+      "inputs": [[428, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation273", 
+      "inputs": [[429, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation272", 
+      "inputs": [[429, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul162", 
+      "inputs": [[431, 0], [424, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation270", 
+      "inputs": [[429, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation271", 
+      "inputs": [[429, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul163", 
+      "inputs": [[433, 0], [434, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus109", 
+      "inputs": [[432, 0], [435, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation274", 
+      "inputs": [[436, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul164", 
+      "inputs": [[430, 0], [437, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_29_h2h", 
+      "inputs": [[438, 0], [100, 0], [101, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus112", 
+      "inputs": [[14, 0], [439, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_29_gates", 
+      "inputs": [[440, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation283", 
+      "inputs": [[441, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation282", 
+      "inputs": [[441, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul168", 
+      "inputs": [[443, 0], [436, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation280", 
+      "inputs": [[441, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation281", 
+      "inputs": [[441, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul169", 
+      "inputs": [[445, 0], [446, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus113", 
+      "inputs": [[444, 0], [447, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation284", 
+      "inputs": [[448, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul170", 
+      "inputs": [[442, 0], [449, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_30_h2h", 
+      "inputs": [[450, 0], [100, 0], [101, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus116", 
+      "inputs": [[11, 0], [451, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_30_gates", 
+      "inputs": [[452, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation293", 
+      "inputs": [[453, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation292", 
+      "inputs": [[453, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul174", 
+      "inputs": [[455, 0], [448, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation290", 
+      "inputs": [[453, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation291", 
+      "inputs": [[453, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul175", 
+      "inputs": [[457, 0], [458, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus117", 
+      "inputs": [[456, 0], [459, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation294", 
+      "inputs": [[460, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul176", 
+      "inputs": [[454, 0], [461, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_31_h2h", 
+      "inputs": [[462, 0], [100, 0], [101, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus120", 
+      "inputs": [[8, 0], [463, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_31_gates", 
+      "inputs": [[464, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation303", 
+      "inputs": [[465, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation302", 
+      "inputs": [[465, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul180", 
+      "inputs": [[467, 0], [460, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation300", 
+      "inputs": [[465, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation301", 
+      "inputs": [[465, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul181", 
+      "inputs": [[469, 0], [470, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus121", 
+      "inputs": [[468, 0], [471, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation304", 
+      "inputs": [[472, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul182", 
+      "inputs": [[466, 0], [473, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_32_h2h", 
+      "inputs": [[474, 0], [100, 0], [101, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus124", 
+      "inputs": [[5, 0], [475, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_32_gates", 
+      "inputs": [[476, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation313", 
+      "inputs": [[477, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation312", 
+      "inputs": [[477, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul186", 
+      "inputs": [[479, 0], [472, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation310", 
+      "inputs": [[477, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation311", 
+      "inputs": [[477, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul187", 
+      "inputs": [[481, 0], [482, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus125", 
+      "inputs": [[480, 0], [483, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation314", 
+      "inputs": [[484, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul188", 
+      "inputs": [[478, 0], [485, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_l2_i2h_weight", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_l2_i2h_bias", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_32_i2h", 
+      "inputs": [[486, 0], [487, 0], [488, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_31_i2h", 
+      "inputs": [[474, 0], [487, 0], [488, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_30_i2h", 
+      "inputs": [[462, 0], [487, 0], [488, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_29_i2h", 
+      "inputs": [[450, 0], [487, 0], [488, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_28_i2h", 
+      "inputs": [[438, 0], [487, 0], [488, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_27_i2h", 
+      "inputs": [[426, 0], [487, 0], [488, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_26_i2h", 
+      "inputs": [[414, 0], [487, 0], [488, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_25_i2h", 
+      "inputs": [[402, 0], [487, 0], [488, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_24_i2h", 
+      "inputs": [[390, 0], [487, 0], [488, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_23_i2h", 
+      "inputs": [[378, 0], [487, 0], [488, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_22_i2h", 
+      "inputs": [[366, 0], [487, 0], [488, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_21_i2h", 
+      "inputs": [[354, 0], [487, 0], [488, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_20_i2h", 
+      "inputs": [[342, 0], [487, 0], [488, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_19_i2h", 
+      "inputs": [[330, 0], [487, 0], [488, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_18_i2h", 
+      "inputs": [[318, 0], [487, 0], [488, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_17_i2h", 
+      "inputs": [[306, 0], [487, 0], [488, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_16_i2h", 
+      "inputs": [[294, 0], [487, 0], [488, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_15_i2h", 
+      "inputs": [[282, 0], [487, 0], [488, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_14_i2h", 
+      "inputs": [[270, 0], [487, 0], [488, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_13_i2h", 
+      "inputs": [[258, 0], [487, 0], [488, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_12_i2h", 
+      "inputs": [[246, 0], [487, 0], [488, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_11_i2h", 
+      "inputs": [[234, 0], [487, 0], [488, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_10_i2h", 
+      "inputs": [[222, 0], [487, 0], [488, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_9_i2h", 
+      "inputs": [[210, 0], [487, 0], [488, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_8_i2h", 
+      "inputs": [[198, 0], [487, 0], [488, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_7_i2h", 
+      "inputs": [[186, 0], [487, 0], [488, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_6_i2h", 
+      "inputs": [[174, 0], [487, 0], [488, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_5_i2h", 
+      "inputs": [[162, 0], [487, 0], [488, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_4_i2h", 
+      "inputs": [[150, 0], [487, 0], [488, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_3_i2h", 
+      "inputs": [[138, 0], [487, 0], [488, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_2_i2h", 
+      "inputs": [[126, 0], [487, 0], [488, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_1_i2h", 
+      "inputs": [[114, 0], [487, 0], [488, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_l2_init_h", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_l2_h2h_weight", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_l2_h2h_bias", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_1_h2h", 
+      "inputs": [[521, 0], [522, 0], [523, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus2", 
+      "inputs": [[520, 0], [524, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_1_gates", 
+      "inputs": [[525, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation8", 
+      "inputs": [[526, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation7", 
+      "inputs": [[526, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_l2_init_c", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul3", 
+      "inputs": [[528, 0], [529, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation5", 
+      "inputs": [[526, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation6", 
+      "inputs": [[526, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul4", 
+      "inputs": [[531, 0], [532, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus3", 
+      "inputs": [[530, 0], [533, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation9", 
+      "inputs": [[534, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul5", 
+      "inputs": [[527, 0], [535, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_2_h2h", 
+      "inputs": [[536, 0], [522, 0], [523, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus6", 
+      "inputs": [[519, 0], [537, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_2_gates", 
+      "inputs": [[538, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation18", 
+      "inputs": [[539, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation17", 
+      "inputs": [[539, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul9", 
+      "inputs": [[541, 0], [534, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation15", 
+      "inputs": [[539, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation16", 
+      "inputs": [[539, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul10", 
+      "inputs": [[543, 0], [544, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus7", 
+      "inputs": [[542, 0], [545, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation19", 
+      "inputs": [[546, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul11", 
+      "inputs": [[540, 0], [547, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_3_h2h", 
+      "inputs": [[548, 0], [522, 0], [523, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus10", 
+      "inputs": [[518, 0], [549, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_3_gates", 
+      "inputs": [[550, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation28", 
+      "inputs": [[551, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation27", 
+      "inputs": [[551, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul15", 
+      "inputs": [[553, 0], [546, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation25", 
+      "inputs": [[551, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation26", 
+      "inputs": [[551, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul16", 
+      "inputs": [[555, 0], [556, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus11", 
+      "inputs": [[554, 0], [557, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation29", 
+      "inputs": [[558, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul17", 
+      "inputs": [[552, 0], [559, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_4_h2h", 
+      "inputs": [[560, 0], [522, 0], [523, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus14", 
+      "inputs": [[517, 0], [561, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_4_gates", 
+      "inputs": [[562, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation38", 
+      "inputs": [[563, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation37", 
+      "inputs": [[563, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul21", 
+      "inputs": [[565, 0], [558, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation35", 
+      "inputs": [[563, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation36", 
+      "inputs": [[563, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul22", 
+      "inputs": [[567, 0], [568, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus15", 
+      "inputs": [[566, 0], [569, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation39", 
+      "inputs": [[570, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul23", 
+      "inputs": [[564, 0], [571, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_5_h2h", 
+      "inputs": [[572, 0], [522, 0], [523, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus18", 
+      "inputs": [[516, 0], [573, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_5_gates", 
+      "inputs": [[574, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation48", 
+      "inputs": [[575, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation47", 
+      "inputs": [[575, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul27", 
+      "inputs": [[577, 0], [570, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation45", 
+      "inputs": [[575, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation46", 
+      "inputs": [[575, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul28", 
+      "inputs": [[579, 0], [580, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus19", 
+      "inputs": [[578, 0], [581, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation49", 
+      "inputs": [[582, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul29", 
+      "inputs": [[576, 0], [583, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_6_h2h", 
+      "inputs": [[584, 0], [522, 0], [523, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus22", 
+      "inputs": [[515, 0], [585, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_6_gates", 
+      "inputs": [[586, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation58", 
+      "inputs": [[587, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation57", 
+      "inputs": [[587, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul33", 
+      "inputs": [[589, 0], [582, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation55", 
+      "inputs": [[587, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation56", 
+      "inputs": [[587, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul34", 
+      "inputs": [[591, 0], [592, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus23", 
+      "inputs": [[590, 0], [593, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation59", 
+      "inputs": [[594, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul35", 
+      "inputs": [[588, 0], [595, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_7_h2h", 
+      "inputs": [[596, 0], [522, 0], [523, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus26", 
+      "inputs": [[514, 0], [597, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_7_gates", 
+      "inputs": [[598, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation68", 
+      "inputs": [[599, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation67", 
+      "inputs": [[599, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul39", 
+      "inputs": [[601, 0], [594, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation65", 
+      "inputs": [[599, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation66", 
+      "inputs": [[599, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul40", 
+      "inputs": [[603, 0], [604, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus27", 
+      "inputs": [[602, 0], [605, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation69", 
+      "inputs": [[606, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul41", 
+      "inputs": [[600, 0], [607, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_8_h2h", 
+      "inputs": [[608, 0], [522, 0], [523, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus30", 
+      "inputs": [[513, 0], [609, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_8_gates", 
+      "inputs": [[610, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation78", 
+      "inputs": [[611, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation77", 
+      "inputs": [[611, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul45", 
+      "inputs": [[613, 0], [606, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation75", 
+      "inputs": [[611, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation76", 
+      "inputs": [[611, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul46", 
+      "inputs": [[615, 0], [616, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus31", 
+      "inputs": [[614, 0], [617, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation79", 
+      "inputs": [[618, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul47", 
+      "inputs": [[612, 0], [619, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_9_h2h", 
+      "inputs": [[620, 0], [522, 0], [523, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus34", 
+      "inputs": [[512, 0], [621, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_9_gates", 
+      "inputs": [[622, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation88", 
+      "inputs": [[623, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation87", 
+      "inputs": [[623, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul51", 
+      "inputs": [[625, 0], [618, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation85", 
+      "inputs": [[623, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation86", 
+      "inputs": [[623, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul52", 
+      "inputs": [[627, 0], [628, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus35", 
+      "inputs": [[626, 0], [629, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation89", 
+      "inputs": [[630, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul53", 
+      "inputs": [[624, 0], [631, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_10_h2h", 
+      "inputs": [[632, 0], [522, 0], [523, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus38", 
+      "inputs": [[511, 0], [633, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_10_gates", 
+      "inputs": [[634, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation98", 
+      "inputs": [[635, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation97", 
+      "inputs": [[635, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul57", 
+      "inputs": [[637, 0], [630, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation95", 
+      "inputs": [[635, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation96", 
+      "inputs": [[635, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul58", 
+      "inputs": [[639, 0], [640, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus39", 
+      "inputs": [[638, 0], [641, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation99", 
+      "inputs": [[642, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul59", 
+      "inputs": [[636, 0], [643, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_11_h2h", 
+      "inputs": [[644, 0], [522, 0], [523, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus42", 
+      "inputs": [[510, 0], [645, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_11_gates", 
+      "inputs": [[646, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation108", 
+      "inputs": [[647, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation107", 
+      "inputs": [[647, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul63", 
+      "inputs": [[649, 0], [642, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation105", 
+      "inputs": [[647, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation106", 
+      "inputs": [[647, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul64", 
+      "inputs": [[651, 0], [652, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus43", 
+      "inputs": [[650, 0], [653, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation109", 
+      "inputs": [[654, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul65", 
+      "inputs": [[648, 0], [655, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_12_h2h", 
+      "inputs": [[656, 0], [522, 0], [523, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus46", 
+      "inputs": [[509, 0], [657, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_12_gates", 
+      "inputs": [[658, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation118", 
+      "inputs": [[659, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation117", 
+      "inputs": [[659, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul69", 
+      "inputs": [[661, 0], [654, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation115", 
+      "inputs": [[659, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation116", 
+      "inputs": [[659, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul70", 
+      "inputs": [[663, 0], [664, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus47", 
+      "inputs": [[662, 0], [665, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation119", 
+      "inputs": [[666, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul71", 
+      "inputs": [[660, 0], [667, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_13_h2h", 
+      "inputs": [[668, 0], [522, 0], [523, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus50", 
+      "inputs": [[508, 0], [669, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_13_gates", 
+      "inputs": [[670, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation128", 
+      "inputs": [[671, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation127", 
+      "inputs": [[671, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul75", 
+      "inputs": [[673, 0], [666, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation125", 
+      "inputs": [[671, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation126", 
+      "inputs": [[671, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul76", 
+      "inputs": [[675, 0], [676, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus51", 
+      "inputs": [[674, 0], [677, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation129", 
+      "inputs": [[678, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul77", 
+      "inputs": [[672, 0], [679, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_14_h2h", 
+      "inputs": [[680, 0], [522, 0], [523, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus54", 
+      "inputs": [[507, 0], [681, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_14_gates", 
+      "inputs": [[682, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation138", 
+      "inputs": [[683, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation137", 
+      "inputs": [[683, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul81", 
+      "inputs": [[685, 0], [678, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation135", 
+      "inputs": [[683, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation136", 
+      "inputs": [[683, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul82", 
+      "inputs": [[687, 0], [688, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus55", 
+      "inputs": [[686, 0], [689, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation139", 
+      "inputs": [[690, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul83", 
+      "inputs": [[684, 0], [691, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_15_h2h", 
+      "inputs": [[692, 0], [522, 0], [523, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus58", 
+      "inputs": [[506, 0], [693, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_15_gates", 
+      "inputs": [[694, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation148", 
+      "inputs": [[695, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation147", 
+      "inputs": [[695, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul87", 
+      "inputs": [[697, 0], [690, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation145", 
+      "inputs": [[695, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation146", 
+      "inputs": [[695, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul88", 
+      "inputs": [[699, 0], [700, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus59", 
+      "inputs": [[698, 0], [701, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation149", 
+      "inputs": [[702, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul89", 
+      "inputs": [[696, 0], [703, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_16_h2h", 
+      "inputs": [[704, 0], [522, 0], [523, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus62", 
+      "inputs": [[505, 0], [705, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_16_gates", 
+      "inputs": [[706, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation158", 
+      "inputs": [[707, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation157", 
+      "inputs": [[707, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul93", 
+      "inputs": [[709, 0], [702, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation155", 
+      "inputs": [[707, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation156", 
+      "inputs": [[707, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul94", 
+      "inputs": [[711, 0], [712, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus63", 
+      "inputs": [[710, 0], [713, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation159", 
+      "inputs": [[714, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul95", 
+      "inputs": [[708, 0], [715, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_17_h2h", 
+      "inputs": [[716, 0], [522, 0], [523, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus66", 
+      "inputs": [[504, 0], [717, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_17_gates", 
+      "inputs": [[718, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation168", 
+      "inputs": [[719, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation167", 
+      "inputs": [[719, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul99", 
+      "inputs": [[721, 0], [714, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation165", 
+      "inputs": [[719, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation166", 
+      "inputs": [[719, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul100", 
+      "inputs": [[723, 0], [724, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus67", 
+      "inputs": [[722, 0], [725, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation169", 
+      "inputs": [[726, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul101", 
+      "inputs": [[720, 0], [727, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_18_h2h", 
+      "inputs": [[728, 0], [522, 0], [523, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus70", 
+      "inputs": [[503, 0], [729, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_18_gates", 
+      "inputs": [[730, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation178", 
+      "inputs": [[731, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation177", 
+      "inputs": [[731, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul105", 
+      "inputs": [[733, 0], [726, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation175", 
+      "inputs": [[731, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation176", 
+      "inputs": [[731, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul106", 
+      "inputs": [[735, 0], [736, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus71", 
+      "inputs": [[734, 0], [737, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation179", 
+      "inputs": [[738, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul107", 
+      "inputs": [[732, 0], [739, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_19_h2h", 
+      "inputs": [[740, 0], [522, 0], [523, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus74", 
+      "inputs": [[502, 0], [741, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_19_gates", 
+      "inputs": [[742, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation188", 
+      "inputs": [[743, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation187", 
+      "inputs": [[743, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul111", 
+      "inputs": [[745, 0], [738, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation185", 
+      "inputs": [[743, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation186", 
+      "inputs": [[743, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul112", 
+      "inputs": [[747, 0], [748, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus75", 
+      "inputs": [[746, 0], [749, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation189", 
+      "inputs": [[750, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul113", 
+      "inputs": [[744, 0], [751, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_20_h2h", 
+      "inputs": [[752, 0], [522, 0], [523, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus78", 
+      "inputs": [[501, 0], [753, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_20_gates", 
+      "inputs": [[754, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation198", 
+      "inputs": [[755, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation197", 
+      "inputs": [[755, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul117", 
+      "inputs": [[757, 0], [750, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation195", 
+      "inputs": [[755, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation196", 
+      "inputs": [[755, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul118", 
+      "inputs": [[759, 0], [760, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus79", 
+      "inputs": [[758, 0], [761, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation199", 
+      "inputs": [[762, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul119", 
+      "inputs": [[756, 0], [763, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_21_h2h", 
+      "inputs": [[764, 0], [522, 0], [523, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus82", 
+      "inputs": [[500, 0], [765, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_21_gates", 
+      "inputs": [[766, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation208", 
+      "inputs": [[767, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation207", 
+      "inputs": [[767, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul123", 
+      "inputs": [[769, 0], [762, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation205", 
+      "inputs": [[767, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation206", 
+      "inputs": [[767, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul124", 
+      "inputs": [[771, 0], [772, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus83", 
+      "inputs": [[770, 0], [773, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation209", 
+      "inputs": [[774, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul125", 
+      "inputs": [[768, 0], [775, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_22_h2h", 
+      "inputs": [[776, 0], [522, 0], [523, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus86", 
+      "inputs": [[499, 0], [777, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_22_gates", 
+      "inputs": [[778, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation218", 
+      "inputs": [[779, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation217", 
+      "inputs": [[779, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul129", 
+      "inputs": [[781, 0], [774, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation215", 
+      "inputs": [[779, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation216", 
+      "inputs": [[779, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul130", 
+      "inputs": [[783, 0], [784, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus87", 
+      "inputs": [[782, 0], [785, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation219", 
+      "inputs": [[786, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul131", 
+      "inputs": [[780, 0], [787, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_23_h2h", 
+      "inputs": [[788, 0], [522, 0], [523, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus90", 
+      "inputs": [[498, 0], [789, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_23_gates", 
+      "inputs": [[790, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation228", 
+      "inputs": [[791, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation227", 
+      "inputs": [[791, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul135", 
+      "inputs": [[793, 0], [786, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation225", 
+      "inputs": [[791, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation226", 
+      "inputs": [[791, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul136", 
+      "inputs": [[795, 0], [796, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus91", 
+      "inputs": [[794, 0], [797, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation229", 
+      "inputs": [[798, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul137", 
+      "inputs": [[792, 0], [799, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_24_h2h", 
+      "inputs": [[800, 0], [522, 0], [523, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus94", 
+      "inputs": [[497, 0], [801, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_24_gates", 
+      "inputs": [[802, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation238", 
+      "inputs": [[803, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation237", 
+      "inputs": [[803, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul141", 
+      "inputs": [[805, 0], [798, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation235", 
+      "inputs": [[803, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation236", 
+      "inputs": [[803, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul142", 
+      "inputs": [[807, 0], [808, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus95", 
+      "inputs": [[806, 0], [809, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation239", 
+      "inputs": [[810, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul143", 
+      "inputs": [[804, 0], [811, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_25_h2h", 
+      "inputs": [[812, 0], [522, 0], [523, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus98", 
+      "inputs": [[496, 0], [813, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_25_gates", 
+      "inputs": [[814, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation248", 
+      "inputs": [[815, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation247", 
+      "inputs": [[815, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul147", 
+      "inputs": [[817, 0], [810, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation245", 
+      "inputs": [[815, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation246", 
+      "inputs": [[815, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul148", 
+      "inputs": [[819, 0], [820, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus99", 
+      "inputs": [[818, 0], [821, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation249", 
+      "inputs": [[822, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul149", 
+      "inputs": [[816, 0], [823, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_26_h2h", 
+      "inputs": [[824, 0], [522, 0], [523, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus102", 
+      "inputs": [[495, 0], [825, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_26_gates", 
+      "inputs": [[826, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation258", 
+      "inputs": [[827, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation257", 
+      "inputs": [[827, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul153", 
+      "inputs": [[829, 0], [822, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation255", 
+      "inputs": [[827, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation256", 
+      "inputs": [[827, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul154", 
+      "inputs": [[831, 0], [832, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus103", 
+      "inputs": [[830, 0], [833, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation259", 
+      "inputs": [[834, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul155", 
+      "inputs": [[828, 0], [835, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_27_h2h", 
+      "inputs": [[836, 0], [522, 0], [523, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus106", 
+      "inputs": [[494, 0], [837, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_27_gates", 
+      "inputs": [[838, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation268", 
+      "inputs": [[839, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation267", 
+      "inputs": [[839, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul159", 
+      "inputs": [[841, 0], [834, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation265", 
+      "inputs": [[839, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation266", 
+      "inputs": [[839, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul160", 
+      "inputs": [[843, 0], [844, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus107", 
+      "inputs": [[842, 0], [845, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation269", 
+      "inputs": [[846, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul161", 
+      "inputs": [[840, 0], [847, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_28_h2h", 
+      "inputs": [[848, 0], [522, 0], [523, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus110", 
+      "inputs": [[493, 0], [849, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_28_gates", 
+      "inputs": [[850, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation278", 
+      "inputs": [[851, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation277", 
+      "inputs": [[851, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul165", 
+      "inputs": [[853, 0], [846, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation275", 
+      "inputs": [[851, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation276", 
+      "inputs": [[851, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul166", 
+      "inputs": [[855, 0], [856, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus111", 
+      "inputs": [[854, 0], [857, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation279", 
+      "inputs": [[858, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul167", 
+      "inputs": [[852, 0], [859, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_29_h2h", 
+      "inputs": [[860, 0], [522, 0], [523, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus114", 
+      "inputs": [[492, 0], [861, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_29_gates", 
+      "inputs": [[862, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation288", 
+      "inputs": [[863, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation287", 
+      "inputs": [[863, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul171", 
+      "inputs": [[865, 0], [858, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation285", 
+      "inputs": [[863, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation286", 
+      "inputs": [[863, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul172", 
+      "inputs": [[867, 0], [868, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus115", 
+      "inputs": [[866, 0], [869, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation289", 
+      "inputs": [[870, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul173", 
+      "inputs": [[864, 0], [871, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_30_h2h", 
+      "inputs": [[872, 0], [522, 0], [523, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus118", 
+      "inputs": [[491, 0], [873, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_30_gates", 
+      "inputs": [[874, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation298", 
+      "inputs": [[875, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation297", 
+      "inputs": [[875, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul177", 
+      "inputs": [[877, 0], [870, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation295", 
+      "inputs": [[875, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation296", 
+      "inputs": [[875, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul178", 
+      "inputs": [[879, 0], [880, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus119", 
+      "inputs": [[878, 0], [881, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation299", 
+      "inputs": [[882, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul179", 
+      "inputs": [[876, 0], [883, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_31_h2h", 
+      "inputs": [[884, 0], [522, 0], [523, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus122", 
+      "inputs": [[490, 0], [885, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_31_gates", 
+      "inputs": [[886, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation308", 
+      "inputs": [[887, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation307", 
+      "inputs": [[887, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul183", 
+      "inputs": [[889, 0], [882, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation305", 
+      "inputs": [[887, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation306", 
+      "inputs": [[887, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul184", 
+      "inputs": [[891, 0], [892, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus123", 
+      "inputs": [[890, 0], [893, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation309", 
+      "inputs": [[894, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul185", 
+      "inputs": [[888, 0], [895, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "1024"
+      }, 
+      "name": "ptb_lstm_32_h2h", 
+      "inputs": [[896, 0], [522, 0], [523, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus126", 
+      "inputs": [[489, 0], [897, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SliceChannel", 
+      "param": {"num_outputs": "4"}, 
+      "name": "ptb_lstm_32_gates", 
+      "inputs": [[898, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation318", 
+      "inputs": [[899, 3]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation317", 
+      "inputs": [[899, 2]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul189", 
+      "inputs": [[901, 0], [894, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "sigmoid"}, 
+      "name": "activation315", 
+      "inputs": [[899, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation316", 
+      "inputs": [[899, 1]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul190", 
+      "inputs": [[903, 0], [904, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Plus", 
+      "param": {}, 
+      "name": "_plus127", 
+      "inputs": [[902, 0], [905, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "Activation", 
+      "param": {"act_type": "tanh"}, 
+      "name": "activation319", 
+      "inputs": [[906, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "_Mul", 
+      "param": {}, 
+      "name": "_mul191", 
+      "inputs": [[900, 0], [907, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_pred_weight", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_pred_bias", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "67"
+      }, 
+      "name": "ptb_pred_32", 
+      "inputs": [[908, 0], [909, 0], [910, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_label_32", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SoftmaxOutput", 
+      "param": {
+        "grad_scale": "1", 
+        "ignore_label": "-1", 
+        "multi_output": "False", 
+        "use_ignore": "False"
+      }, 
+      "name": "ptb_softmax_32", 
+      "inputs": [[911, 0], [912, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "67"
+      }, 
+      "name": "ptb_pred_31", 
+      "inputs": [[896, 0], [909, 0], [910, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_label_31", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SoftmaxOutput", 
+      "param": {
+        "grad_scale": "1", 
+        "ignore_label": "-1", 
+        "multi_output": "False", 
+        "use_ignore": "False"
+      }, 
+      "name": "ptb_softmax_31", 
+      "inputs": [[914, 0], [915, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "67"
+      }, 
+      "name": "ptb_pred_30", 
+      "inputs": [[884, 0], [909, 0], [910, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_label_30", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SoftmaxOutput", 
+      "param": {
+        "grad_scale": "1", 
+        "ignore_label": "-1", 
+        "multi_output": "False", 
+        "use_ignore": "False"
+      }, 
+      "name": "ptb_softmax_30", 
+      "inputs": [[917, 0], [918, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "67"
+      }, 
+      "name": "ptb_pred_29", 
+      "inputs": [[872, 0], [909, 0], [910, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_label_29", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SoftmaxOutput", 
+      "param": {
+        "grad_scale": "1", 
+        "ignore_label": "-1", 
+        "multi_output": "False", 
+        "use_ignore": "False"
+      }, 
+      "name": "ptb_softmax_29", 
+      "inputs": [[920, 0], [921, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "67"
+      }, 
+      "name": "ptb_pred_28", 
+      "inputs": [[860, 0], [909, 0], [910, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_label_28", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SoftmaxOutput", 
+      "param": {
+        "grad_scale": "1", 
+        "ignore_label": "-1", 
+        "multi_output": "False", 
+        "use_ignore": "False"
+      }, 
+      "name": "ptb_softmax_28", 
+      "inputs": [[923, 0], [924, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "67"
+      }, 
+      "name": "ptb_pred_27", 
+      "inputs": [[848, 0], [909, 0], [910, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_label_27", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SoftmaxOutput", 
+      "param": {
+        "grad_scale": "1", 
+        "ignore_label": "-1", 
+        "multi_output": "False", 
+        "use_ignore": "False"
+      }, 
+      "name": "ptb_softmax_27", 
+      "inputs": [[926, 0], [927, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "67"
+      }, 
+      "name": "ptb_pred_26", 
+      "inputs": [[836, 0], [909, 0], [910, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_label_26", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SoftmaxOutput", 
+      "param": {
+        "grad_scale": "1", 
+        "ignore_label": "-1", 
+        "multi_output": "False", 
+        "use_ignore": "False"
+      }, 
+      "name": "ptb_softmax_26", 
+      "inputs": [[929, 0], [930, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "67"
+      }, 
+      "name": "ptb_pred_25", 
+      "inputs": [[824, 0], [909, 0], [910, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_label_25", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SoftmaxOutput", 
+      "param": {
+        "grad_scale": "1", 
+        "ignore_label": "-1", 
+        "multi_output": "False", 
+        "use_ignore": "False"
+      }, 
+      "name": "ptb_softmax_25", 
+      "inputs": [[932, 0], [933, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "67"
+      }, 
+      "name": "ptb_pred_24", 
+      "inputs": [[812, 0], [909, 0], [910, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_label_24", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SoftmaxOutput", 
+      "param": {
+        "grad_scale": "1", 
+        "ignore_label": "-1", 
+        "multi_output": "False", 
+        "use_ignore": "False"
+      }, 
+      "name": "ptb_softmax_24", 
+      "inputs": [[935, 0], [936, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "67"
+      }, 
+      "name": "ptb_pred_23", 
+      "inputs": [[800, 0], [909, 0], [910, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_label_23", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SoftmaxOutput", 
+      "param": {
+        "grad_scale": "1", 
+        "ignore_label": "-1", 
+        "multi_output": "False", 
+        "use_ignore": "False"
+      }, 
+      "name": "ptb_softmax_23", 
+      "inputs": [[938, 0], [939, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "67"
+      }, 
+      "name": "ptb_pred_22", 
+      "inputs": [[788, 0], [909, 0], [910, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_label_22", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SoftmaxOutput", 
+      "param": {
+        "grad_scale": "1", 
+        "ignore_label": "-1", 
+        "multi_output": "False", 
+        "use_ignore": "False"
+      }, 
+      "name": "ptb_softmax_22", 
+      "inputs": [[941, 0], [942, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "67"
+      }, 
+      "name": "ptb_pred_21", 
+      "inputs": [[776, 0], [909, 0], [910, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_label_21", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SoftmaxOutput", 
+      "param": {
+        "grad_scale": "1", 
+        "ignore_label": "-1", 
+        "multi_output": "False", 
+        "use_ignore": "False"
+      }, 
+      "name": "ptb_softmax_21", 
+      "inputs": [[944, 0], [945, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "67"
+      }, 
+      "name": "ptb_pred_20", 
+      "inputs": [[764, 0], [909, 0], [910, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_label_20", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SoftmaxOutput", 
+      "param": {
+        "grad_scale": "1", 
+        "ignore_label": "-1", 
+        "multi_output": "False", 
+        "use_ignore": "False"
+      }, 
+      "name": "ptb_softmax_20", 
+      "inputs": [[947, 0], [948, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "67"
+      }, 
+      "name": "ptb_pred_19", 
+      "inputs": [[752, 0], [909, 0], [910, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_label_19", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SoftmaxOutput", 
+      "param": {
+        "grad_scale": "1", 
+        "ignore_label": "-1", 
+        "multi_output": "False", 
+        "use_ignore": "False"
+      }, 
+      "name": "ptb_softmax_19", 
+      "inputs": [[950, 0], [951, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "67"
+      }, 
+      "name": "ptb_pred_18", 
+      "inputs": [[740, 0], [909, 0], [910, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_label_18", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SoftmaxOutput", 
+      "param": {
+        "grad_scale": "1", 
+        "ignore_label": "-1", 
+        "multi_output": "False", 
+        "use_ignore": "False"
+      }, 
+      "name": "ptb_softmax_18", 
+      "inputs": [[953, 0], [954, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "67"
+      }, 
+      "name": "ptb_pred_17", 
+      "inputs": [[728, 0], [909, 0], [910, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_label_17", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SoftmaxOutput", 
+      "param": {
+        "grad_scale": "1", 
+        "ignore_label": "-1", 
+        "multi_output": "False", 
+        "use_ignore": "False"
+      }, 
+      "name": "ptb_softmax_17", 
+      "inputs": [[956, 0], [957, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "67"
+      }, 
+      "name": "ptb_pred_16", 
+      "inputs": [[716, 0], [909, 0], [910, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_label_16", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SoftmaxOutput", 
+      "param": {
+        "grad_scale": "1", 
+        "ignore_label": "-1", 
+        "multi_output": "False", 
+        "use_ignore": "False"
+      }, 
+      "name": "ptb_softmax_16", 
+      "inputs": [[959, 0], [960, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "67"
+      }, 
+      "name": "ptb_pred_15", 
+      "inputs": [[704, 0], [909, 0], [910, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_label_15", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SoftmaxOutput", 
+      "param": {
+        "grad_scale": "1", 
+        "ignore_label": "-1", 
+        "multi_output": "False", 
+        "use_ignore": "False"
+      }, 
+      "name": "ptb_softmax_15", 
+      "inputs": [[962, 0], [963, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "67"
+      }, 
+      "name": "ptb_pred_14", 
+      "inputs": [[692, 0], [909, 0], [910, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_label_14", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SoftmaxOutput", 
+      "param": {
+        "grad_scale": "1", 
+        "ignore_label": "-1", 
+        "multi_output": "False", 
+        "use_ignore": "False"
+      }, 
+      "name": "ptb_softmax_14", 
+      "inputs": [[965, 0], [966, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "67"
+      }, 
+      "name": "ptb_pred_13", 
+      "inputs": [[680, 0], [909, 0], [910, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_label_13", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SoftmaxOutput", 
+      "param": {
+        "grad_scale": "1", 
+        "ignore_label": "-1", 
+        "multi_output": "False", 
+        "use_ignore": "False"
+      }, 
+      "name": "ptb_softmax_13", 
+      "inputs": [[968, 0], [969, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "67"
+      }, 
+      "name": "ptb_pred_12", 
+      "inputs": [[668, 0], [909, 0], [910, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_label_12", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SoftmaxOutput", 
+      "param": {
+        "grad_scale": "1", 
+        "ignore_label": "-1", 
+        "multi_output": "False", 
+        "use_ignore": "False"
+      }, 
+      "name": "ptb_softmax_12", 
+      "inputs": [[971, 0], [972, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "67"
+      }, 
+      "name": "ptb_pred_11", 
+      "inputs": [[656, 0], [909, 0], [910, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_label_11", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SoftmaxOutput", 
+      "param": {
+        "grad_scale": "1", 
+        "ignore_label": "-1", 
+        "multi_output": "False", 
+        "use_ignore": "False"
+      }, 
+      "name": "ptb_softmax_11", 
+      "inputs": [[974, 0], [975, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "67"
+      }, 
+      "name": "ptb_pred_10", 
+      "inputs": [[644, 0], [909, 0], [910, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_label_10", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SoftmaxOutput", 
+      "param": {
+        "grad_scale": "1", 
+        "ignore_label": "-1", 
+        "multi_output": "False", 
+        "use_ignore": "False"
+      }, 
+      "name": "ptb_softmax_10", 
+      "inputs": [[977, 0], [978, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "67"
+      }, 
+      "name": "ptb_pred_9", 
+      "inputs": [[632, 0], [909, 0], [910, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_label_9", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SoftmaxOutput", 
+      "param": {
+        "grad_scale": "1", 
+        "ignore_label": "-1", 
+        "multi_output": "False", 
+        "use_ignore": "False"
+      }, 
+      "name": "ptb_softmax_9", 
+      "inputs": [[980, 0], [981, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "67"
+      }, 
+      "name": "ptb_pred_8", 
+      "inputs": [[620, 0], [909, 0], [910, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_label_8", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SoftmaxOutput", 
+      "param": {
+        "grad_scale": "1", 
+        "ignore_label": "-1", 
+        "multi_output": "False", 
+        "use_ignore": "False"
+      }, 
+      "name": "ptb_softmax_8", 
+      "inputs": [[983, 0], [984, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "67"
+      }, 
+      "name": "ptb_pred_7", 
+      "inputs": [[608, 0], [909, 0], [910, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_label_7", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SoftmaxOutput", 
+      "param": {
+        "grad_scale": "1", 
+        "ignore_label": "-1", 
+        "multi_output": "False", 
+        "use_ignore": "False"
+      }, 
+      "name": "ptb_softmax_7", 
+      "inputs": [[986, 0], [987, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "67"
+      }, 
+      "name": "ptb_pred_6", 
+      "inputs": [[596, 0], [909, 0], [910, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_label_6", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SoftmaxOutput", 
+      "param": {
+        "grad_scale": "1", 
+        "ignore_label": "-1", 
+        "multi_output": "False", 
+        "use_ignore": "False"
+      }, 
+      "name": "ptb_softmax_6", 
+      "inputs": [[989, 0], [990, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "67"
+      }, 
+      "name": "ptb_pred_5", 
+      "inputs": [[584, 0], [909, 0], [910, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_label_5", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SoftmaxOutput", 
+      "param": {
+        "grad_scale": "1", 
+        "ignore_label": "-1", 
+        "multi_output": "False", 
+        "use_ignore": "False"
+      }, 
+      "name": "ptb_softmax_5", 
+      "inputs": [[992, 0], [993, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "67"
+      }, 
+      "name": "ptb_pred_4", 
+      "inputs": [[572, 0], [909, 0], [910, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_label_4", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SoftmaxOutput", 
+      "param": {
+        "grad_scale": "1", 
+        "ignore_label": "-1", 
+        "multi_output": "False", 
+        "use_ignore": "False"
+      }, 
+      "name": "ptb_softmax_4", 
+      "inputs": [[995, 0], [996, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "67"
+      }, 
+      "name": "ptb_pred_3", 
+      "inputs": [[560, 0], [909, 0], [910, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_label_3", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SoftmaxOutput", 
+      "param": {
+        "grad_scale": "1", 
+        "ignore_label": "-1", 
+        "multi_output": "False", 
+        "use_ignore": "False"
+      }, 
+      "name": "ptb_softmax_3", 
+      "inputs": [[998, 0], [999, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "67"
+      }, 
+      "name": "ptb_pred_2", 
+      "inputs": [[548, 0], [909, 0], [910, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_label_2", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SoftmaxOutput", 
+      "param": {
+        "grad_scale": "1", 
+        "ignore_label": "-1", 
+        "multi_output": "False", 
+        "use_ignore": "False"
+      }, 
+      "name": "ptb_softmax_2", 
+      "inputs": [[1001, 0], [1002, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "FullyConnected", 
+      "param": {
+        "no_bias": "False", 
+        "num_hidden": "67"
+      }, 
+      "name": "ptb_pred_1", 
+      "inputs": [[536, 0], [909, 0], [910, 0]], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "null", 
+      "param": {}, 
+      "name": "ptb_label_1", 
+      "inputs": [], 
+      "backward_source_id": -1
+    }, 
+    {
+      "op": "SoftmaxOutput", 
+      "param": {
+        "grad_scale": "1", 
+        "ignore_label": "-1", 
+        "multi_output": "False", 
+        "use_ignore": "False"
+      }, 
+      "name": "ptb_softmax_1", 
+      "inputs": [[1004, 0], [1005, 0]], 
+      "backward_source_id": -1
+    }
+  ], 
+  "arg_nodes": [
+    0, 
+    1, 
+    3, 
+    4, 
+    6, 
+    9, 
+    12, 
+    15, 
+    18, 
+    21, 
+    24, 
+    27, 
+    30, 
+    33, 
+    36, 
+    39, 
+    42, 
+    45, 
+    48, 
+    51, 
+    54, 
+    57, 
+    60, 
+    63, 
+    66, 
+    69, 
+    72, 
+    75, 
+    78, 
+    81, 
+    84, 
+    87, 
+    90, 
+    93, 
+    96, 
+    99, 
+    100, 
+    101, 
+    107, 
+    487, 
+    488, 
+    521, 
+    522, 
+    523, 
+    529, 
+    909, 
+    910, 
+    912, 
+    915, 
+    918, 
+    921, 
+    924, 
+    927, 
+    930, 
+    933, 
+    936, 
+    939, 
+    942, 
+    945, 
+    948, 
+    951, 
+    954, 
+    957, 
+    960, 
+    963, 
+    966, 
+    969, 
+    972, 
+    975, 
+    978, 
+    981, 
+    984, 
+    987, 
+    990, 
+    993, 
+    996, 
+    999, 
+    1002, 
+    1005
+  ], 
+  "heads": [
+    [1006, 0], 
+    [1003, 0], 
+    [1000, 0], 
+    [997, 0], 
+    [994, 0], 
+    [991, 0], 
+    [988, 0], 
+    [985, 0], 
+    [982, 0], 
+    [979, 0], 
+    [976, 0], 
+    [973, 0], 
+    [970, 0], 
+    [967, 0], 
+    [964, 0], 
+    [961, 0], 
+    [958, 0], 
+    [955, 0], 
+    [952, 0], 
+    [949, 0], 
+    [946, 0], 
+    [943, 0], 
+    [940, 0], 
+    [937, 0], 
+    [934, 0], 
+    [931, 0], 
+    [928, 0], 
+    [925, 0], 
+    [922, 0], 
+    [919, 0], 
+    [916, 0], 
+    [913, 0]
+  ]
+}
